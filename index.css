@@ -134,6 +134,12 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+
+/*800px breakpoint */
+
+
+
 /* 500px breakpoint */
 @media (max-width: 500px) {
     .artists-container {
@@ -143,5 +149,9 @@ button:hover{
         align-items: center;
     }
     .artist {
-        width: 80%;
+        width: 60%;
+    }
+    nav a {
+        padding: 0 5%;
+    }
 }
