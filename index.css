@@ -136,5 +136,12 @@ button:hover{
 }
 /* 500px breakpoint */
 @media (max-width: 500px) {
-    
+    .artists-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .artist {
+        width: 80%;
 }
